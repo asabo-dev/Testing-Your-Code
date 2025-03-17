@@ -1,8 +1,4 @@
-"""
-A unit test verifies that one specific aspect of a function's behavior is correct.
-A test case is a collection of unit tests that together prove that a function behaves as it's supposed to,
-within the full range of situations you expect it to handle.
-"""
+# A Failing Test
 
 import unittest
 from name_function import get_formatted_name
@@ -17,3 +13,12 @@ class NamesTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+"""
+OUTPUT:
+Traceback (most recent call last): .......
+TypeError: get_formatted_name() missing 1 required positional argument: 'last'
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+"""
