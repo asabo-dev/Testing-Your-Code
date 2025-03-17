@@ -1,4 +1,4 @@
-# A Failing Test
+# Responding to a Failed Test
 
 import unittest
 from name_function import get_formatted_name
@@ -14,11 +14,3 @@ class NamesTestCase(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-"""
-OUTPUT:
-Traceback (most recent call last): .......
-TypeError: get_formatted_name() missing 1 required positional argument: 'last'
-Ran 1 test in 0.001s
-
-FAILED (errors=1)
-"""
