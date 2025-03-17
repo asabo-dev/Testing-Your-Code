@@ -1,3 +1,4 @@
+# Fail the test
 import unittest
 from city_functions import city_country
 
@@ -11,3 +12,8 @@ class CityTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+"""
+OUTPUT:
+TypeError: city_country() missing 1 required positional argument: 'population'
+"""
